@@ -1,27 +1,28 @@
-* {
-    padding:0px;
-    margin:0px;
- 
-}
 
-#site-heading
-{
+/* Default padding and margin set to zero  */
+* {
+    padding:0;
+    margin:0;
+}
+/* Top side heading with image css */
+#site-heading{
     margin: 20px;
+    /* Border at bottom for heading section */
     border-bottom: 2px solid inherit;
-    box-shadow: 5px 5px  lightgray;
+    /* To give shadowy fell to border */
+    box-shadow: 0 5px   lightgray;
     padding-bottom: 30px;
     height:auto;
+    margin-bottom: 40px;
 }
-
-#site-heading-image
-{
+/* Site heading image css */
+#site-heading-image{
    width:100px;
    height:100px;
    float: left;
-  
 }
-.main-heading
-{
+/* CSS FOR THE Side Heading text */
+#site-heading .main-heading{
     text-align: left;
     font-size: 80px;
     position: relative;
@@ -29,64 +30,52 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
-
-.site-navigation
-{
+/* CSS for site naviigation */
+.site-navigation{
   margin-left:10%;
   margin-bottom: 50px;
 }
-.navListItems
-{
+/* Style for each item in navigation */
+.navListItems{
     display: inline;
     padding:5px;
     margin:70px;
     font-size: 24px;
     color:black;
-    
 }
-.navListItems:hover
-{
-    background-color: aqua;
+/* CSS for site banner section */
+.site-banner{
+    width:1000px;
+    position: absolute;
+    left:10%;
+    border: 2px solid lightgrey;
 }
-#image
-{
+/* CSS for image in sitebanner */
+.site-banner #image{
     width:1000px;
     height:250px;
     background-image: url('../images/dog.jpg');
     background-position:center;
     background-size: cover;
 }
-.site-banner
-{
-    
-   width:1000px;
-
-   position: absolute;
-   left:10%;
-   border: 2px solid lightgrey;
-   
-}
+/* CSS for heading below the banner image */
 .site-banner h3{
     font-size: 30px;
     color:grey;
     text-align: left;
 }
 .site-banner img{
-  
-    width: 100%;
-    height:300px;
-     border-radius: 5%;
-
+   width: 100%;
+   height:300px;
+   border-radius: 5%;
 }
-#banner-text
-{
+#banner-text{
     text-align: left;
     color:gray;
     padding:20px;
 }
-
-.top-news
-{
+/* CSS for top news section */
+.top-news{
    position: absolute;
    top : 700px;
    position: absolute;
@@ -94,62 +83,46 @@
    font-size:18px;
    width:100%;
 }
-#newsHeading
-{
+/* News list heading styles */
+#newsHeading{
     border-bottom: 2px solid lightgray;
     padding:30px;
     width:700px;
 }
-.newsItem
-{
+/* Style for indivisual top news items */
+.newsItem{
     border-bottom: 2px solid gray;
     width: 700px;;
     padding:10px;
 }
-.newsItem:nth-child(0)
-{
-    border-top: 2px solid black;
-}
-
-.table-main
-{
+/* Styles for table section */
+.table-main{
     position: absolute;
     top:1150px;
     left:10%;
     width:100%;
     font-size:20px;
-
 }
-
-.table-main td
-{
+/* Styles for each tuple in the table */
+.table-main td{
     padding:20px 80px 20px 80px;
     text-align: left;
     color:gray;
 }
-.table-main th
-{
+/*Styles for table  header */
+.table-main th{
     font-size:15px;
     font-weight: lighter;
 }
-
-.latest-img
-{
-    width:100px;
-    height:50px;
-    float:left;
-}
-
-.latest-news
-{
+/* Styles for latest news section */
+.latest-news{
     position: absolute;
     top:1400px;
     margin:10px;
-
 }
 
-.news-single
-{
+/* Styles for latest news section single news item */
+.latest-news .news-single{
     margin-left:30px;
     margin-right:30px;
     padding-top:20px;
@@ -157,15 +130,14 @@
     margin-bottom: 30px;
 }
 
-
-.contact li
-{
-   list-style-type: none;
-   display: inline-block;
-   padding-left:60px;
+/* Styles for latest news section item images */
+.latest-img{
+    width:100px;
+    height:50px;
+    float:left;
 }
-.contact1
-{
+/* Styles for contact section */
+.contact1{
     width:100%;
     margin:10px;
     border-top:2px solid lightgray;
@@ -173,16 +145,22 @@
     padding:20px;
     box-shadow: 5px 2px lightgray;
 }
-.wheather-info
-{
+.contact li{
+   list-style-type: none;
+   display: inline-block;
+   padding-left:60px;
+}
+
+/*Styles for wheather info */
+.wheather-info{
     display: inline-block;
     width:200px;
     height:300px;
     position: relative;
     top:100px;
 }
-.wheather-info img
-{
+/*Styles for wheather info images*/
+.wheather-info img{
     width:150px;
     height:100px;
 }
