@@ -1,0 +1,189 @@
+* {
+    padding:0px;
+    margin:0px;
+ 
+}
+
+#site-heading
+{
+    margin: 20px;
+    border-bottom: 2px solid inherit;
+    box-shadow: 5px 5px  lightgray;
+    padding-bottom: 30px;
+    height:auto;
+}
+
+#site-heading-image
+{
+   width:100px;
+   height:100px;
+   float: left;
+  
+}
+.main-heading
+{
+    text-align: left;
+    font-size: 80px;
+    position: relative;
+    left:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.site-navigation
+{
+  margin-left:10%;
+  margin-bottom: 50px;
+}
+.navListItems
+{
+    display: inline;
+    padding:5px;
+    margin:70px;
+    font-size: 24px;
+    color:black;
+    
+}
+.navListItems:hover
+{
+    background-color: aqua;
+}
+#image
+{
+    width:1000px;
+    height:250px;
+    background-image: url('../images/dog.jpg');
+    background-position:center;
+    background-size: cover;
+}
+.site-banner
+{
+    
+   width:1000px;
+
+   position: absolute;
+   left:10%;
+   border: 2px solid lightgrey;
+   
+}
+.site-banner h3{
+    font-size: 30px;
+    color:grey;
+    text-align: left;
+}
+.site-banner img{
+  
+    width: 100%;
+    height:300px;
+     border-radius: 5%;
+
+}
+#banner-text
+{
+    text-align: left;
+    color:gray;
+    padding:20px;
+}
+
+.top-news
+{
+   position: absolute;
+   top : 700px;
+   position: absolute;
+   left:10%;
+   font-size:18px;
+   width:100%;
+}
+#newsHeading
+{
+    border-bottom: 2px solid lightgray;
+    padding:30px;
+    width:700px;
+}
+.newsItem
+{
+    border-bottom: 2px solid gray;
+    width: 700px;;
+    padding:10px;
+}
+.newsItem:nth-child(0)
+{
+    border-top: 2px solid black;
+}
+
+.table-main
+{
+    position: absolute;
+    top:1150px;
+    left:10%;
+    width:100%;
+    font-size:20px;
+
+}
+
+.table-main td
+{
+    padding:20px 80px 20px 80px;
+    text-align: left;
+    color:gray;
+}
+.table-main th
+{
+    font-size:15px;
+    font-weight: lighter;
+}
+
+.latest-img
+{
+    width:100px;
+    height:50px;
+    float:left;
+}
+
+.latest-news
+{
+    position: absolute;
+    top:1400px;
+    margin:10px;
+
+}
+
+.news-single
+{
+    margin-left:30px;
+    margin-right:30px;
+    padding-top:20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+.contact li
+{
+   list-style-type: none;
+   display: inline-block;
+   padding-left:60px;
+}
+.contact1
+{
+    width:100%;
+    margin:10px;
+    border-top:2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding:20px;
+    box-shadow: 5px 2px lightgray;
+}
+.wheather-info
+{
+    display: inline-block;
+    width:200px;
+    height:300px;
+    position: relative;
+    top:100px;
+}
+.wheather-info img
+{
+    width:150px;
+    height:100px;
+}
+
